@@ -5,7 +5,7 @@ name, brand and MRP.
 
 Technology used:
 1. Apex
-2. LwC(HTML, CSS, JavaScript)
+2. LWC(HTML, CSS, JavaScript)
 
 IDE used:
 1. Visual Studio Code
