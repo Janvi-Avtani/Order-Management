@@ -1,0 +1,22 @@
+<template>
+    
+
+    <lightning-card title="Product Name">
+    <lightning-input placeholder="Enter product name" onkeyup={handleInputProductName}></lightning-input>
+    <lightning-datatable key-field="id" data={productDataName} columns={columns} onrowaction={callRowAction}></lightning-datatable>
+    </lightning-card>
+</br>
+   
+
+    <lightning-card title="Product Brand">
+    <lightning-input placeholder="Enter Brand" onkeyup={handleInputBrand}></lightning-input>
+    <lightning-datatable key-field="id" data={productDataBrand} columns={columns} onrowaction={callRowAction}></lightning-datatable>
+    </lightning-card>
+</br>
+
+    <lightning-card title="Product MRP">
+    <lightning-input placeholder="Enter MRP" onkeyup={handleInputProductMRP}></lightning-input>
+    <lightning-datatable key-field="id" data={productDataMRP} columns={columns} onrowaction={callRowAction}></lightning-datatable>
+    </lightning-card>
+
+</template>
